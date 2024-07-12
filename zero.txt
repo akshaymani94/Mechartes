@@ -1,0 +1,4 @@
+Original data 
+23 35 2 47 96 
+Sorted data 
+2 23 35 47 96 
