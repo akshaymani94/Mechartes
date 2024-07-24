@@ -34,10 +34,18 @@ class Student : private Human
 
 };
 
+class Teacher : public Human
+{
+    int salary, id;
+};
+
 
 int main()
 {
     Student A("Akshay",20,50,12,1);
     A.display();
+
+    Teacher B;
+    B.name = "Mohit";
     return 0;
 }
